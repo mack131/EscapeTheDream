@@ -8,13 +8,13 @@ Saved/
 
 # Ignore heavy content folder (manual copy)
 Content/**
-    
+
 # Re-include key subdirectories that need version control
-!Content/Maps/**
-!Content/Blueprints/**
-!Content/Assets/**
-!Content/UI/**
-!Content/DataTables/**
+!Content/Maps
+!Content/Blueprints
+!Content/Assets
+!Content/UI
+!Content/DataTables
 
 # Ignore IDE and system files
 .vs/
