@@ -6,15 +6,17 @@ DerivedDataCache/
 Intermediate/
 Saved/
 
-# Ignore heavy content folder (manual copy)
+# Ignore all Content folder by default
 Content/**
-
-# Re-include key subdirectories that need version control
-!Content/Maps
-!Content/Blueprints
-!Content/Assets
-!Content/UI
-!Content/DataTables
+# Re-include Content itself so we can unignore subfolders
+!Content/
+# Re-include desired subfolders
+!Content/Maps/
+!Content/Maps/**
+!Content/Assets/
+!Content/Assets/**
+!Content/Blueprints/
+!Content/Blueprints/**
 
 # Ignore IDE and system files
 .vs/
