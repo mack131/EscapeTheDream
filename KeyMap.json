@@ -1,0 +1,45 @@
+{
+  "MainQuest": {
+    "QuestKey": "MainQuest",
+    "DisplayName": "Main Quest",
+    "SubTasks": {
+      "FantasyLevel": {
+        "QuestKey": "FantasyLevel",
+        "DisplayName": "Fantasy Level",
+        "SubTasks": {
+          "FantasyCoinQuest": {
+            "QuestKey": "FantasyCoinQuest",
+            "DisplayName": "Collect Coins in Fantasy Level",
+            "SubTasks": {}
+          },
+          "EscapeDarkRoom": {
+            "QuestKey": "EscapeDarkRoom",
+            "DisplayName": "Escape the Dark Room",
+            "SubTasks": {}
+          },
+          "JumpOverGarden": {
+            "QuestKey": "JumpOverGarden",
+            "DisplayName": "Jump Over the Garden",
+            "SubTasks": {}
+          }
+        }
+      },
+      "SciFiLevel": {
+        "QuestKey": "SciFiLevel",
+        "DisplayName": "Sci-fi Level",
+        "SubTasks": {
+          "MoveOverPlanet": {
+            "QuestKey": "MoveOverPlanet",
+            "DisplayName": "Move Over the Planet",
+            "SubTasks": {}
+          },
+          "LowGravityRoom": {
+            "QuestKey": "LowGravityRoom",
+            "DisplayName": "Escape Low Gravity Room",
+            "SubTasks": {}
+          }
+        }
+      }
+    }
+  }
+}
